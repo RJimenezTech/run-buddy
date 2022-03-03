@@ -14,7 +14,6 @@ body {
 header {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
     background-position: 80%;
     padding: 20px 35px;
@@ -22,8 +21,8 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
     position: sticky;
+    position: -webkit-sticky;    
     top: 0;
   }
 
@@ -102,7 +101,8 @@ section {
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: fixed;
+    background-position: 80%;
     display: flex;
     justify-content: center;   
     flex-wrap: wrap;
@@ -201,11 +201,12 @@ section {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
+    border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap:wrap;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #39a6b2;
+    
 }
 
 .step:last-child {
